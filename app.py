@@ -19,7 +19,7 @@ def main():
                 email = commit['author']['email']
                 emails.add(email)
     
-    return emails
+    return f'Emails found :\n{emails}'
 
 if __name__ == "__main__":
     print(main())
